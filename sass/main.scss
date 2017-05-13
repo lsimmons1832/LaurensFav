@@ -1,0 +1,22 @@
+@import 'colors';
+
+
+
+body{
+	background-color: $goldenRod;
+
+	.jumbotron{
+		height: 300px;
+		background-color: $black;
+		color: $white;
+
+		h1{
+		text-align: center;
+		}
+
+		.img-thumbnail{
+			height: 400px;
+			width: 300px;
+		}
+	}
+}
